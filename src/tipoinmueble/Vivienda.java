@@ -5,18 +5,16 @@ public class Vivienda extends TipoInmueble{
     
     protected int habitaciones;
     protected int baños;
-    protected int numeroPisos;
+    
     public Vivienda(int IdInmobiliario, int area, String direccion, int habitaciones, int baños){
         super(IdInmobiliario, area, direccion);
         this.habitaciones = habitaciones;
         this.baños = baños;
-        this.numeroPisos = numeroPisos;
     }
     
     public void imprimir(){
         super.imprimir();
         System.out.println("Habitaciones: " + habitaciones);
         System.out.println("Baños: " + baños);     /*numero de baños*/
-        System.out.println("Número de Pisos: " + numeroPisos);
     }
 }
