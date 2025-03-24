@@ -15,6 +15,6 @@ public class Vivienda extends TipoInmueble{
     public void imprimir(){
         super.imprimir();
         System.out.println("Habitaciones: " + habitaciones);
-        System.out.println("Baños: " + baños);     
+        System.out.println("Baños: " + baños);     /*numero de baños*/
     }
 }
