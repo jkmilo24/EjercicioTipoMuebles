@@ -1,8 +1,8 @@
 package tipoinmueble;
 
 public class CasaRural extends Casa {
-    private int distanciaCabecera;
-    private int altitud;
+    protected int distanciaCabecera;
+    protected int altitud;
 
     public CasaRural(int IdInmobiliario, int area, String direccion, int habitaciones, int baños, int numeroPisos, int distanciaCabecera, int altitud) {
         super(IdInmobiliario, area, direccion, habitaciones, baños, numeroPisos);
